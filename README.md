@@ -1,6 +1,6 @@
 # FX Chooser
 
-A FX choice option is an option that gives the holder the right of choosing to enter one and only one of the two underlying securities: a cross-currency swap or a cross-currency forward contract. Let us call the option an FX choice option.
+A FX choice option is an option that gives the holder the right of choosing to enter one and only one of the two underlying securities: a cross-currency swap or a cross-currency forward contract. Let us call the option an FX choice option. Other FX derivatives include FX accumulator fader (see https://finpricing.com/lib/FxAccumulator.html)
 
 Let t ¸ 0 be a generic valuation time point and T > 0 be the maturity of the FX choice option. Let C, U and S be a base currency, a quote currency and exchange rate, respectively, where S is expressed in the American convention, i.e., S is the number of the base currency C per unit of the quote currency U. Let BC be the bond price process of a pre-determined fixed coupon bond with unit face value in the C-currency. 
 
@@ -22,10 +22,3 @@ Hence, the key is to calculate the expectation of the matured payoff of (5). Let
 
 Now let us introduce some assumptions. Let ¯BU(¢) be the forward price process of the bond BU and ¯BC(¢) be the forward price process of the bond BC. Both forward bond prices are matured at time of T such that ¯BU(T) = BU(T) and ¯BC(T) = BC(T).
 
-References:
-
-https://finpricing.com/lib/EqCliquet.html
-
-https://zenodo.org/record/6546805/files/FxHedgeModel.pdf
-
-https://zenodo.org/record/6546805#.YpDu9KgpDq4
